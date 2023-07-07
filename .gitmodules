@@ -1,0 +1,6 @@
+[submodule "cours-js"]
+	path = cours-js
+	url = git@github.com:reubenCFormation/cours-js.git
+[submodule "cours-js-serie1"]
+	path = cours-js-serie1
+	url = git@github.com:reubenCFormation/cours-js-serie1.git
