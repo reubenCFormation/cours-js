@@ -10,3 +10,15 @@
 [submodule "cours-js-serie4"]
 	path = cours-js-serie4
 	url = git@github.com:reubenCFormation/cours-js-serie4.git
+[submodule "exercises/cours-js-serie4"]
+	path = exercises/cours-js-serie4
+	url = git@github.com:reubenCFormation/cours-js-serie4.git
+[submodule "exercises/exercises-serie1-js"]
+	path = exercises/exercises-serie1-js
+	url = git@github.com:reubenCFormation/exercises-serie1-js.git
+[submodule "exercises/exercises-serie2-js"]
+	path = exercises/exercises-serie2-js
+	url = git@github.com:reubenCFormation/exercises-serie2-js.git
+[submodule "exercises/js-serie4-exercises"]
+	path = exercises/js-serie4-exercises
+	url = git@github.com:reubenCFormation/js-serie4-exercises.git
