@@ -17,23 +17,24 @@
         4) Noter les ; pour separer la condition d'initialisation et la condition de fin
 
      */
-    /*
-
+    
+/*
       for(var i=0;i<30;i++){
-        console.log(i)
+        console.log(i);
       }
       */
+      
 
 //2) A quoi ca va vraiment nous servir? 
       // Nous pouvons bien le deviner, on va rarement afficher 0 a 30 dans la console, ca n'a aucun interet! Mais imaginons que nous avons un tableau d'etudiants, et que nous souhaterai afficher le nom de chaque etudiant dans la console...la ca pourrai nous servir!
 
       var students=["Tom","Eli","Bill","Peyton","Asante","Wes","Jenny","Sarah","Clara","Emily"];
       // Ici i commencera a 0 et continuera a s'incrementer jusq'au moment ou il ne sera plus infereiur a la longeur du tableau. Nous allons ainsi pouvoir acceder a l'index correspondant!
-      /*
+      
       for(var i=0;i<students.length;i++){
-        console.log(students[i])
+        //console.log(students[i])
       }
-      */
+      
 
 //3) Nous pouvons construire des tableaux vides et les alimenter a l'aide d'une boucle et en combinant des conditions!
  //----------------------------------------------------------------------------------------------------------------
@@ -43,13 +44,14 @@
     for(var i=0;i<students.length;i++){
         if(students[i].length>4){
             // si je tombe dans la condition, j'alimente le tableau a l'aide d'un push!
-            studentsWithLongName.push(students[i]);
+            //studentsWithLongName.push(students[i]);
         }
     }
     /*
     console.log("Etudiants avec un long prenom");
     console.log(studentsWithLongName);
     */
+    
 
 // 4 Les boucles imbirqués 
   //-----------------------------------------------------------------------------------------------------------------------------
@@ -58,10 +60,11 @@
 
      for(var i=0;i<multiArray.length;i++){
         // remarquer que la boucle imbriqué utilise une nouvelle variable (j et non i!)
-        for(let j=0;j<multiArray[i].length;j++){
-            /*
-            console.log(multiArray[i][j]);
-            */
+        //console.log(multiArray[i]);
+        for(var j=0;j<multiArray[i].length;j++){
+            
+            //console.log(multiArray[i][j]);
+          
         }
      }
 
@@ -75,9 +78,9 @@
     // comment afficher en une ligne, les informations de chacun de nos etudiants via une boucle? Et aussi decouvrir une nouvelle facon de concaterner!
 
     for(var i=0;i<studentsObjects.length;i++){
-        /*
-        console.log(`L'etudiant s'appelle ${studentsObjects[i].name} il/elle a ${studentsObjects[i].age}  ans et a une moyenne de ${studentsObjects[i].score}`)
-        */
+        
+        //console.log(`L'etudiant s'appelle ${studentsObjects[i].name} il/elle a ${studentsObjects[i].age}  ans et a une moyenne de ${studentsObjects[i].score}`)
+        
     }
 
 
@@ -105,10 +108,10 @@
     // exemple 
     var number=0;
     while(number<10){
-        /*
-        number++;
+        
+        //number++;
         console.log("on reste dans la boucle while")
-        */
+        
     }
     /*
     console.log("nous avons terminé la boucle while");
