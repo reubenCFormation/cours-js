@@ -3,11 +3,11 @@
 // Une condition est une facor de tester la vericité d'une situation. Par exemple, disons que si j'ai plus de 100 euro, j'irai au restaurant. Comment est ce que je vais traduire ceci en code? 
 var balance=120;
 // comme nous le voyons, dans ce cas, nous allons rentrer dans la condition car selon notre variable balance, nous avons 120 euros disponsible et pour aller au restuarant, il faut juste avoir plus de 100 euros! Nous allons donc rentrer dans la condition
-/*
+
 if(balance>100){
-    console.log("j'irai au restuarant");
+    //console.log("j'irai au restuarant");
 }
-*/
+
 
 //2) Enchainer plusiers conditions a la fois 
 //--------------------------------------------------------------------------------------------------------------------------------
@@ -30,22 +30,26 @@ if(newBalance>150){
 */
 
 
+
 //3) Enchainer un if avec un ou plusiers else if 
 //----------------------------------------------------------------------------------------------------------------------------
 // comme nous pouvons le constater, lorse que on enchaine un if avec un ou plusiers else if, du moment que notre condition est satisfaite, on s'arrete la et on ne continue pas a tester les conditions, ce qui va dire que nous allons que rentrer dans l'une des conditions!
+var newBalance=150;
 /*
 if(newBalance>100){
-    console.log("condition nouveau solde supperieur a 100 satisfait")
+    console.log("condition nouveau solde supperieur a 100 satisfait");
 }
 
 else if(newBalance>120){
-    console.log("condition nouveau solde supperieur a 120 satisfait")
+    console.log("condition nouveau solde supperieur a 120 satisfait");
 }
 
+
 else{
-    console.log("aucune des deux condition satisfait")
+    console.log("aucune des deux condition satisfait");
 }
 */
+
 
 //4) Se rabattre sur le else
 //--------------------------------------------------------------------------------------------------------------------------------
@@ -80,8 +84,10 @@ else{
  else{
     console.log("Je suis ni Nico, ni Johnny ni Geraldine")
  }
-
  */
+ 
+
+ 
 
  //5) Tester pluseirs choses dans une seul conditions
  //----------------------------------------------------------------------------------------------------------------------------------
@@ -101,6 +107,7 @@ else{
     console.log("Les deux conditions ne sont pas satisfaites")
   }
   */
+  
 
   /*
     Nous avons aussi le symbole "||" qui teste si un cas OU un 2eme cas peut etre satisfaite 
@@ -109,14 +116,15 @@ else{
   */
   /*
     if(number>20 || number==15){
-        console.log("Au moins l'une des conditions est satisfaite")
-      }
+        console.log("Au moins l'une des conditions est satisfaite");
+     }
     
       else{
-        console.log("Les deux conditions ne sont pas satisfaites")
+        console.log("Les deux conditions ne sont pas satisfaites");
       }
+      */
 
-    */
+    
 
 
 //6) Comment les conditions et les Booleans sont liés
@@ -134,6 +142,7 @@ else{
       console.log(newNumber<100);
       console.log(newNumber>=100)
       */
+      
 
 //7) Tester une condition sur un Boolean 
  //--------------------------------------------------------------------------------------------------------------------------------------
@@ -201,11 +210,11 @@ else{
       var intNum=8;
       
       if(stringNum==intNum){
-        console.log("Le double egale recoonnait une egalité entre une chaine de caracteres et une valeur numerique")
+       // console.log("Le double egale recoonnait une egalité entre une chaine de caracteres et une valeur numerique")
       }
 
       if(stringNum===intNum){
-        console.log("Le triple egale ne recconait pas une egalité entre une chaine de caractere et une valeur numerique")
+        //console.log("Le triple egale ne recconait pas une egalité entre une chaine de caractere et une valeur numerique")
       }
       
 
