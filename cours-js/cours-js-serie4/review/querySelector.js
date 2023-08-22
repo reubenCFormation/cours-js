@@ -5,7 +5,7 @@
 // nous allons recuperer le bouton single-btn
 var singleBtn=document.querySelector(".single-btn");
 // nous allons pouvoir changer son contenu textuelle 
-singleBtn.textContent="Le nouveau contenu textuelle de mon bouton";
+singleBtn.textContent="My beautiful button!";
 
 //Nous pouvons lui rajouter des classes css bien sur!
-singleBtn.classList.add("btn","btn-primary")
+singleBtn.classList.add("btn","btn-primary");

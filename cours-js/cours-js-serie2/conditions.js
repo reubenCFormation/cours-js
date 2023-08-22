@@ -5,7 +5,7 @@ var balance=120;
 // comme nous le voyons, dans ce cas, nous allons rentrer dans la condition car selon notre variable balance, nous avons 120 euros disponsible et pour aller au restuarant, il faut juste avoir plus de 100 euros! Nous allons donc rentrer dans la condition
 
 if(balance>100){
-    //console.log("j'irai au restuarant");
+    console.log("j'irai au restuarant");
 }
 
 

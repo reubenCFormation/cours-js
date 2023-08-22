@@ -69,3 +69,5 @@ console.log(manyAnimals)
 // Bonus2
 // Nous volouns que un entier qui commencera a zero attiegne une valeur supperiere ou egale a 10000 et tant que cette valeur n'a pas attient les 10,000 nous allons continuer a incrementer sa valeur par un  entier aleatoire entre 0 et 100. Attention! 10,000 en programmation ne sera pas reconnu comme un chiffre! Il faut ecrire 10000!
 
+
+

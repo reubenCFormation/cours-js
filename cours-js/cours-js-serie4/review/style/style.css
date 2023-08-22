@@ -29,3 +29,12 @@
     font-weight:30px;
     
 }
+
+.text-large{
+    font-size:40px;
+}
+
+.child-div{
+    margin-left:250px;
+    color:red;
+}

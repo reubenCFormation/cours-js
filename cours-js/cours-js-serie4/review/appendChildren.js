@@ -1,14 +1,19 @@
 
 var myId=document.getElementById("myId");
+
+
+
 // je cree une div a la volée
 var newDiv=document.createElement("div");
 // je defini le contenu textuelle de ma nouvelle div
 newDiv.textContent="Je suis l'enfant du div avec l'id myId";
 // je lui rajoute une classe bootstrap ainsi que une classe "custom css"
-newDiv.classList.add("text-primary","m-1","child-div")
+newDiv.classList.add("text-danger","m-2")
 // je l'insere comme l'enfant de mon id
 
-myId.appendChild(newDiv);
+
+
+myBody.appendChild(newDiv);
 
 
 
@@ -24,3 +29,4 @@ newDiv.appendChild(newP);
 
 // je peux maintenant acceder aux enfants de newDiv
 console.log(newDiv.children);
+

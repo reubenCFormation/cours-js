@@ -10,6 +10,7 @@
 */
   // exemple decalaration de fonction 
 
+
   function basicFunction(){
      console.log("Ceci est ma premiere fonction!");
      console.log("Ceci est une fonction basique qui va juste faire un console.log");
@@ -19,6 +20,9 @@
   /*
   basicFunction();
   */
+  
+  
+  
 
   //2) Le mot clé return 
   //------------------------------------------------------------------------------------------------------------------------------------
@@ -35,6 +39,10 @@
         function getLocalVar(){
             var localVar="ceci est une variable locale!";
         }
+        
+     
+        
+    
         // ceci va declencher une erreur, si j'essaye def aire un console.log de localVar en dehors de ma fonction!
         /*
         console.log(lovalVar);
@@ -52,17 +60,25 @@
         /*
         console.log(getLocalVar);
         */
+        
+        
 
     function returnsNothing(){
-        console.log("Si tu ne retourne rien dans ta fonction, tu ne pourra pas l'utiliser pour stocker une variable en dehors d'elle!")
+        console.log("Si tu ne retourne rien dans ta fonction, tu ne pourra pas l'utiliser pour stocker une variable en dehors d'elle!");
+        
     }
+
+
     /*
     var emptyValue=returnsNothing();
     */
+    
+    
     /*
-    console.log("Une valuer non defini");
     console.log(emptyValue);
     */
+    
+
 
     /*
     console.log("GET STORED VALUE");
@@ -72,12 +88,15 @@
      var arrayToReturn=["first","second","third","fourth","fifth","sixth"];
      return arrayToReturn;
    }
-
+/*
    var getStoredArr=returnArray();
-   /*
-   console.log("GET STORED VAL");
+   */
+   
+  /*
    console.log(getStoredArr);
    */
+
+   
 
    //3) Retourner une seul valeur 
     //-------------------------------------------------------------------------------------------------------------------------------
@@ -86,13 +105,14 @@
         // exemple 
         
         function testAfterReturn (){
+            
             return "Apres ce return, la suite ne s'executera pas!";
             console.log("Cette ligne ne s'affichera pas");
             console.log("Cette ligne ne s'affichera pas non plus!")
         }
-        /*
+        
         console.log(testAfterReturn());
-        */
+        
 
 //4) Les parametres 
 
@@ -102,18 +122,29 @@
         // exemple 
          function sayHello(name){
             console.log(`Bonjour ${name}`)
+            
          }
          // Lors de notre appel, nous pouvons preciser a QUI nous souhaitons le bienvenue (ce sont nos ARGUMENTS) Une fonction aura donc des PARAMETRES et lors que on appelle une fonction qui prends des parametres on lui passe des ARGUMENTS
          /*
          sayHello("Toto");
          sayHello("Tata");
          */
+         
+         
 
          // nous pouvons aussi, bien entendu avoir plusiers parametres dans une fonction 
 
          function sayHelloSeveral(name1,name2){
             console.log(`Bonjour ${name1} et ${name2}`);
+            
          }
+
+         sayHelloSeveral("Reuben","Toto");
+         sayHelloSeveral("Bouchera","Katya");
+        
+
+
+        
 
 //5) Les Parametres par defaut d'une fonction 
         // dans une fonction ,nous avons l'option de preciser une valeur par defaut d'un parametre. Par exemple, parfois nous n'allons pas vouloir utiliser un parametre et dans ce cas, nous allons preciser que sa valeur par defaut sera "null";

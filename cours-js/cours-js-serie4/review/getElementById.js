@@ -3,6 +3,8 @@
  2)noter que nous avons pas besoin de preciser le # car la methode attend deja un id
  */
 
+
+
  var myId=document.getElementById("myId");
 // myId devient un objet
  console.log("get type my id");
@@ -17,13 +19,14 @@
   */
 
     //1) definir du contenu textuelle (nous utilisons la proprieté textContent)
-   myId.textContent="Voici le nouveau contenu textuelle de mon id!"
+   myId.textContent="Voici le contenu textuelle que je vais donner a mon id!"
    
 
     //2) definir le style de cette balise (nous ajoutons de maniere dynamique au tableau classList contenu dans myId. classList est une proprieté de l'objet myId qui contient un tableau de noms de classes que nous allons pouvoir definir!
     console.log("GET CLASS LIST")
     console.log(myId.classList)
-    myId.classList.add("custom-style");
+    myId.classList.add("text-danger");
+    myId.classList.add("text-large");
    
 
     

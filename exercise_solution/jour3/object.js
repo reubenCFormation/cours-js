@@ -1,5 +1,6 @@
-// Nous savons que des objets on une clé et une valeur.
 
+// Nous savons que des objets on une clé et une valeur.
+console.log("HELLLO WOLRD!!");
 var myObj={name:"Reuben",age:33,sex:"male"};
 
 // Cependant, des objets peuvent aussi stocker comme clé une fonction! 
@@ -10,16 +11,7 @@ var myNewObj={
  // fonction anonyme
 functionKey:function(type){
     console.log(`je suis une clé qui a comme valeur une fonction! on appele sa une ${type}`);
-
-
-},
-
-secondMethod:function(){
-    console.log("Une autre methode,cette fois sans paremetre!")
-}
-
-
-};
+}};
 
 
 
@@ -27,11 +19,8 @@ secondMethod:function(){
 // va executer la fonction contenu dans fonction key!
 
 // EXEMPLE
-/*
-myNewObj.functionKey("methode");
 
-myNewObj.secondMethod();
-*/
+myNewObj.functionKey("methode");
 
 
 
@@ -66,12 +55,6 @@ var emptyStringObj={
     emptyStr:""
 }
 
-console.log(emptyStringObj.emptyStr);
-
-emptyStringObj.emptyStr="A defined string!";
-
-console.log(emptyStringObj.emptyStr);
-
 //Ici je vais alimenter la valeur de emptyStr a la volée 
 /*
 emptyStringObj.emptyStr="Ici j'alimente la clé empty string"
@@ -81,4 +64,6 @@ emptyStringObj.emptyStr="Ici j'alimente la clé empty string"
 /*
 console.log(emptyStringObj.emptyStr);
 */
+
+
 

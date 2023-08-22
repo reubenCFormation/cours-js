@@ -6,7 +6,21 @@
 
 // exemple: Ici, je vais recuperer toutes les balises qui contiennent la classe .div-list
 var getDivs=document.querySelectorAll(".div-list");
+console.log("GET ALL DIVS!");
 console.log(getDivs);
+
+
+
+for(var i=0;i<getDivs.length;i++){
+    getDivs[i].textContent="My beautiful divs!"
+    getDivs[i].classList.add("text-primary","m-2")
+}
+
+
+
+
+
+
 // ici que se passe t'il si nous essayone d'appliquer du contenu textuelle a tous nos divs? 
 /*
 getDivs.textContent="J'essaye d'appliquer du contenu a tous mes divs a la fois Mais ca ne marchera pas!"
@@ -21,7 +35,7 @@ getDivs.classList.add("new-class");
 */
 // ici je boucle sur mes objets de div et je change le contenu textuelle ainsi que le style de chacune!
 
-
+/*
 for(var i=0;i<getDivs.length;i++){
     /*
     getDivs[i].textContent=`Je suis le numero ${i+1} de la liste divs!`
@@ -29,6 +43,7 @@ for(var i=0;i<getDivs.length;i++){
     */
     
     // si nous sommes avant le 3eme tour de boucle
+    /*
     
     if(i<2){
         getDivs[i].textContent="Je suis soit la 1er soit le 2eme dib"
@@ -42,8 +57,10 @@ for(var i=0;i<getDivs.length;i++){
     
     
     
+    
    
 }
+*/
 
 
 
