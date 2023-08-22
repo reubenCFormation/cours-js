@@ -7,6 +7,7 @@
 
  var myId=document.getElementById("myId");
 // myId devient un objet
+
  console.log("get type my id");
  console.log(typeof myId);
 
@@ -25,7 +26,7 @@
     //2) definir le style de cette balise (nous ajoutons de maniere dynamique au tableau classList contenu dans myId. classList est une proprieté de l'objet myId qui contient un tableau de noms de classes que nous allons pouvoir definir!
     console.log("GET CLASS LIST")
     console.log(myId.classList)
-    myId.classList.add("text-danger");
+    myId.classList.add("text-success");
     myId.classList.add("text-large");
    
 
