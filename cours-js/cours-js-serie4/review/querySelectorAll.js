@@ -9,12 +9,14 @@ var getDivs=document.querySelectorAll(".div-list");
 console.log("GET ALL DIVS!");
 console.log(getDivs);
 
-
-
 for(var i=0;i<getDivs.length;i++){
-    getDivs[i].textContent="My beautiful divs!"
-    getDivs[i].classList.add("text-primary","m-2")
+    getDivs[i].textContent="Mon Beau Contenu!!";
+    getDivs[i].classList.add("text-primary");
 }
+
+
+
+
 
 
 

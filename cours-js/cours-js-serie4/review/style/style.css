@@ -30,6 +30,10 @@
     
 }
 
+.center-content{
+    text-align:center;
+}
+
 .text-large{
     font-size:40px;
 }

@@ -29,9 +29,11 @@ secondMethod:function(){
 // EXEMPLE
 /*
 myNewObj.functionKey("methode");
-
 myNewObj.secondMethod();
 */
+
+
+
 
 
 

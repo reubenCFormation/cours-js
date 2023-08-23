@@ -2,14 +2,19 @@
  1)cette methode nous permet de pouvoir recuperer un id en particulier dans notre page html et ainsi nous pouvons appliquer des traitements dessus!
  2)noter que nous avons pas besoin de preciser le # car la methode attend deja un id
  */
-
-
+console.log("J'affiche des informations!!");
 
  var myId=document.getElementById("myId");
 // myId devient un objet
 
  console.log("get type my id");
- console.log(typeof myId);
+ console.log(myId);
+
+ myId.textContent="Hello World!! This is the text content!";
+
+ myId.classList.add("custom-style");
+
+
 
  // maintenant,nous allons pouvoir faire pliens de traitements sur cette id. En voici quel que uns 
   /*
@@ -20,14 +25,7 @@
   */
 
     //1) definir du contenu textuelle (nous utilisons la proprieté textContent)
-   myId.textContent="Voici le contenu textuelle que je vais donner a mon id!"
    
-
-    //2) definir le style de cette balise (nous ajoutons de maniere dynamique au tableau classList contenu dans myId. classList est une proprieté de l'objet myId qui contient un tableau de noms de classes que nous allons pouvoir definir!
-    console.log("GET CLASS LIST")
-    console.log(myId.classList)
-    myId.classList.add("text-success");
-    myId.classList.add("text-large");
    
 
     

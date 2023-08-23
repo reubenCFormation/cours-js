@@ -9,6 +9,7 @@ getButton.addEventListener("click",toggleVisibilityOnClick);
 
 function showClick(){
     console.log("the button has been clicked");
+    console.log("La fonction se declenche!!");
    
 }
 

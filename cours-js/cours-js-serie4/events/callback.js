@@ -10,7 +10,7 @@ function addEventListener(eventType,func){
     // rappelons nous que ici nous sommes en train de definir et non d'appeler callAnotherFunction
     
     var eventObj={event:eventType,funcEx:function(){
-        console.log("funcEx called!")
+        
         return "hello world";
     }}
     func(eventObj)
